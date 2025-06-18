@@ -1,42 +1,36 @@
-# BlockAcademia 🎓🔗
+# BlockAcademia
 
-BlockAcademia is an innovative academic management system powered by blockchain technology. It aims to revolutionize how academic records are created, stored, accessed, and verified — with transparency, security, and efficiency at its core.
+BlockAcademia is an innovative academic management system that leverages blockchain technology to enhance the transparency, security, and efficiency of educational recordkeeping. By using a decentralized, tamper-proof ledger, BlockAcademia ensures student records, grades, certificates, and other critical data remain immutable and easily verifiable across institutions and over time.
 
----
+## 🚀 Features
 
-## 🌟 Key Features
+- **Immutable Recordkeeping**  
+  All academic data (grades, transcripts, certificates) are stored on-chain, preventing tampering or unauthorized modification.
 
-- 🔐 **Tamper-Proof Recordkeeping**  
-  All academic records (grades, certificates, transcripts) are securely stored on the blockchain, ensuring data integrity and immutability.
+- **Smart Contracts Automation**  
+  Course registration, grade submissions, certificate issuance and other workflows are automated via Ethereum smart contracts, minimizing manual effort and human error.
 
-- 🤖 **Smart Contract Automation**  
-  Automates critical processes like course registration, grade submission, and certificate issuance — reducing administrative work and minimizing human error.
+- **Role-Based Interface**  
+  - **Students** can register for courses, view grades, and download verified certificates.  
+  - **Teachers** can submit grades, manage course rosters, and request certificate issuance.  
+  - **Administrators** can enroll new institutions, manage user roles, and audit system logs.
 
-- 🧑‍🎓 **User-Friendly Interfaces**  
-  Tailored dashboards for students, teachers, and administrators make academic tasks seamless and intuitive.
+- **Cross‑Institution Verification**  
+  Employers or partner schools can instantly verify a student’s credentials on‑chain without relying on paper documents or manual checks.
 
-- 🔍 **Credential Verification**  
-  Employers and institutions can instantly verify academic credentials without manual intervention.
+- **Decentralized Governance**  
+  Data is not controlled by a single authority—reducing risk of favoritism, fraud, or manipulation.
 
-- 🌍 **Decentralized and Trustless**  
-  No single party controls the data — making the system more transparent and equitable.
+## 🏗️ Architecture & Tech Stack
 
----
+| Layer                   | Technology                         |
+|-------------------------|------------------------------------|
+| **Blockchain**          | Ethereum (Solidity)                |
+| **Smart Contracts**     | Solidity, OpenZeppelin             |
+| **Backend/API**         | Node.js, Express                   |
+| **Database (Off‑chain)**| MongoDB (for indexing & metadata)  |
+| **Frontend**            | React, Web3.js / Ethers.js         |
+| **Authentication**      | MetaMask / WalletConnect           |
+| **Deployment**          | Ganache (local), Infura (testnets)|
 
-## 🛠️ Tech Stack
 
-- **Blockchain**: Ethereum / Solidity (Smart Contracts)  
-- **Frontend**: HTML, CSS, JavaScript / React (if applicable)  
-- **Backend**: Node.js / Express (optional)  
-- **Storage**: IPFS / On-chain  
-- **Smart Contract Deployment**: Hardhat / Truffle / Remix
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/MurtazaPlumber68/AcademicManagementBlockchain.git
-cd AcademicManagementBlockchain
